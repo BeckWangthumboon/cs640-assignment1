@@ -1,0 +1,58 @@
+Q2: Path Latency and Throughput (h1 <-> h4)
+Prediction:
+- Expected RTT: [fill]
+- Expected Throughput: [fill]
+
+Measurements:
+- Average RTT (from latency_Q2.txt): [fill]
+- Measured Throughput (from throughput_Q2.txt): [fill]
+
+Explanation:
+[fill]
+
+Q3: Effects of Multiplexing (s1 <-> s4)
+Two simultaneous pairs
+Prediction:
+- Expected RTT (each pair): [fill]
+- Expected Throughput (each pair): [fill]
+
+Measurements:
+- Pair 1 avg RTT: [fill]
+- Pair 1 throughput: [fill]
+- Pair 2 avg RTT: [fill]
+- Pair 2 throughput: [fill]
+
+Explanation:
+[fill]
+
+Three simultaneous pairs
+Prediction:
+- Expected RTT (each pair): [fill]
+- Expected Throughput (each pair): [fill]
+
+Measurements:
+- Pair 1 avg RTT: [fill]
+- Pair 1 throughput: [fill]
+- Pair 2 avg RTT: [fill]
+- Pair 2 throughput: [fill]
+- Pair 3 avg RTT: [fill]
+- Pair 3 throughput: [fill]
+
+Explanation:
+[fill]
+
+Q4: Effects of Latency (h1 <-> h4 and h5 <-> h6)
+Prediction:
+- h1 <-> h4 expected RTT: [fill]
+- h1 <-> h4 expected Throughput: [fill]
+- h5 <-> h6 expected RTT: [fill]
+- h5 <-> h6 expected Throughput: [fill]
+
+Measurements:
+- h1 <-> h4 avg RTT (from latency_h1-h4.txt): [fill]
+- h1 <-> h4 throughput (from throughput_h1-h4.txt): [fill]
+- h5 <-> h6 avg RTT (from latency_h5-h6.txt): [fill]
+- h5 <-> h6 throughput (from throughput_h5-h6.txt): [fill]
+
+Explanation:
+[fill]
