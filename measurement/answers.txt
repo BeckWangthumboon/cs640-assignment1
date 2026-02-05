@@ -30,46 +30,46 @@ Our predicted latency was almost exact to the real average. The throughput howev
 Q3: Effects of Multiplexing (s1 <-> s4)
 Two simultaneous pairs
 Prediction:
-- Expected RTT (each pair): [fill]
-- Expected Throughput (each pair): [fill]
+- Expected RTT (each pair): 160 ms
+- Expected Throughput (each pair): 10 Mbps
 
 Measurements:
-- Pair 1 avg RTT: [fill]
-- Pair 1 throughput: [fill]
-- Pair 2 avg RTT: [fill]
-- Pair 2 throughput: [fill]
+- Pair 1 avg RTT: 957.522 ms
+- Pair 1 throughput: 6.532 Mbps
+- Pair 2 avg RTT: 957.553 ms
+- Pair 2 throughput: 5.916 Mbps
 
 Explanation:
 [fill]
 
 Three simultaneous pairs
 Prediction:
-- Expected RTT (each pair): [fill]
-- Expected Throughput (each pair): [fill]
+- Expected RTT (each pair): 160 ms
+- Expected Throughput (each pair): 6.667 Mbps
 
 Measurements:
-- Pair 1 avg RTT: [fill]
-- Pair 1 throughput: [fill]
-- Pair 2 avg RTT: [fill]
-- Pair 2 throughput: [fill]
-- Pair 3 avg RTT: [fill]
-- Pair 3 throughput: [fill]
+- Pair 1 avg RTT: 939.034 ms
+- Pair 1 throughput: 4.302 Mbps
+- Pair 2 avg RTT: 939.297 ms
+- Pair 2 throughput: 4.070 Mbps
+- Pair 3 avg RTT: 969.030 ms
+- Pair 3 throughput: 3.418 Mbps
 
 Explanation:
 [fill]
 
 Q4: Effects of Latency (h1 <-> h4 and h5 <-> h6)
 Prediction:
-- h1 <-> h4 expected RTT: [fill]
-- h1 <-> h4 expected Throughput: [fill]
-- h5 <-> h6 expected RTT: [fill]
-- h5 <-> h6 expected Throughput: [fill]
+- h1 <-> h4 expected RTT: 160 ms
+- h1 <-> h4 expected Throughput: 20 Mbps
+- h5 <-> h6 expected RTT: 40 ms
+- h5 <-> h6 expected Throughput: 20 Mbps
 
 Measurements:
-- h1 <-> h4 avg RTT (from latency_h1-h4.txt): [fill]
-- h1 <-> h4 throughput (from throughput_h1-h4.txt): [fill]
-- h5 <-> h6 avg RTT (from latency_h5-h6.txt): [fill]
-- h5 <-> h6 throughput (from throughput_h5-h6.txt): [fill]
+- h1 <-> h4 avg RTT (from latency_h1-h4.txt): 974.485 ms
+- h1 <-> h4 throughput (from throughput_h1-h4.txt): 3.427 Mbps
+- h5 <-> h6 avg RTT (from latency_h5-h6.txt): 393.246 ms
+- h5 <-> h6 throughput (from throughput_h5-h6.txt): 22.435 Mbps
 
 Explanation:
 [fill]
