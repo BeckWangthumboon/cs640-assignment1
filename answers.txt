@@ -1,14 +1,31 @@
+Q1: Link Latency and Throughput
+L1 (h1-h2):
+- Latency: 170.64 ms avg
+- Throughput: 18.95 Mbps
+L2 (h2-h3):
+- Latency: 123.90 ms avg
+- Throughput: 38.19 Mbps
+L3 (h3-h4):
+- Latency: 206.73 ms avg
+- Throughput: 28.47 Mbps
+L4 (h2-h5):
+- Latency: 101.45 ms avg
+- Throughput: 23.91 Mbps
+L5 (h3-h6):
+- Latency: 102.07 ms avg
+- Throughput: 23.90 Mbps
+
 Q2: Path Latency and Throughput (h1 <-> h4)
 Prediction:
-- Expected RTT: [fill]
-- Expected Throughput: [fill]
+- Expected RTT: 160 ms ; bcs 80ms one way x 2
+- Expected Throughput: 20 Mbps ; limited by L1 bottleneck
 
 Measurements:
-- Average RTT (from latency_Q2.txt): [fill]
-- Measured Throughput (from throughput_Q2.txt): [fill]
+- Average RTT (from latency_Q2.txt): 161.27 ms
+- Measured Throughput (from throughput_Q2.txt): 23.97 Mbps
 
 Explanation:
-[fill]
+Our predicted latency was almost exact to the real average. The throughput however was slightly higher than the 20 Mbps bottleneck we've predicted (by around 4 Mbps). This is because mininet switches buffer packets sometimes, thus allowing short bursts of traffic to exceed the strict limit at the time of the brief tests
 
 Q3: Effects of Multiplexing (s1 <-> s4)
 Two simultaneous pairs
